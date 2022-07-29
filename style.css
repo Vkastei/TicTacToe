@@ -1,0 +1,135 @@
+#field1{
+    left:200px;
+    top:20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field2{
+    left:260px;
+    top:20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field3{
+    left:320px;
+    top:20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field4{
+    left:200px;
+    top:80px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field5{
+    left:260px;
+    top:80px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field6{
+    left:320px;
+    top:80px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field7{
+    left:200px;
+    top:140px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field8{
+    left:260px;
+    top:140px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+#field9{
+    left:320px;
+    top:140px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+
+
+.kreuz {
+
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top:-20px;
+    left: -5px;
+    position: relative;
+    visibility: hidden;
+    
+}
+
+.kreuz:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\274c"; /* use the hex value here... */
+    font-size: 30px; 
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+}
+
+.kreis {
+    
+    position: absolute;
+    border-radius: 50%;
+    width:30px;
+    margin-top: 27px;
+    margin-left: 8px;
+    border: 5px solid black;
+    height: 30px;
+    visibility: hidden;
+}
+
+#restart {
+
+    width: 80px;
+    height: 30px;
+    margin-top:250px;
+    margin-left: 250px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.tictactoe{
+    position: absolute;
+    left: 22%;
+    top: 50px; 
+}
